@@ -28,8 +28,8 @@ eureka:
     instance-id: ${spring.application.name}:${server.port}
 logging:
   level:
-    org.springframework.cloud: DEBUG
-    org.springframework.boot: DEBUG
+    org.springframework.cloud: INFO
+    org.springframework.boot: INFO
 #开启刷新配置
 management:
   endpoints:
