@@ -1,4 +1,4 @@
-package xyz.supertll.eureka;
+package xyz.supertll.client;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

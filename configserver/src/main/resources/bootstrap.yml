@@ -10,7 +10,7 @@ spring:
           uri: https://github.com/os-tll/configdemo.git #配置Git仓库的地址
           username: os-tll #配置git仓库的账号
           password: 13463052930Tq #配置git仓库的密码
-          search-paths: configserver/src/main/resources/config #搜索路径
+          search-paths: /configfile #搜索路径
           label: master #分支名称
           clone-on-start: true #启动时加载配置文件
   #配合消息总线使用
@@ -21,15 +21,15 @@ spring:
 #    password: guest
 eureka:
   client:
-    enable: false
+    register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:9000/eureka
+      defaultZone: http://localhost:9000/client
   instance:
     instance-id: ${spring.application.name}:${server.port}
 logging:
   level:
-    org.springframework.cloud: INFO
-    org.springframework.boot: INFO
+    org.springframework.cloud: info
+    org.springframework.boot: info
 #开启刷新配置
 management:
   endpoints:
