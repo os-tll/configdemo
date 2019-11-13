@@ -1,9 +1,13 @@
 server:
   port: 9003
-
 spring:
   application:
-    name: client
+    name: config-client
+  profiles:
+    active: dev
+  cloud:
+    config:
+      name: config-server
 eureka:
   client:
     register-with-eureka: true

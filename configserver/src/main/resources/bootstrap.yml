@@ -2,14 +2,14 @@ server:
   port: 9001
 spring:
   application:
-    name: Config-Server
+    name: config-server
   cloud:
     config:
       server:
         git:
           uri: https://github.com/os-tll/configdemo.git #配置Git仓库的地址
-          username: os-tll #配置git仓库的账号
-          password: 13463052930Tq #配置git仓库的密码
+#          username: #配置git仓库的账号
+#          password: #配置git仓库的密码
           search-paths: /configfile #搜索路径
           label: master #分支名称
           clone-on-start: true #启动时加载配置文件
