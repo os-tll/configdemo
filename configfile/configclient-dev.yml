@@ -14,3 +14,5 @@ logging:
 #    port: 7672
 #    username: guest
 #    password: guest
+version:
+  123456789
