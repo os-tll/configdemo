@@ -1,0 +1,38 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: Config-Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/os-tll/configdemo.git #配置Git仓库的地址
+          #          username: os-tll #配置git仓库的账号
+          #          password: 13463052930Tq #配置git仓库的密码
+          search-paths: configserver/src/main/resources/config #搜索路径
+          label: master #分支名称
+          clone-on-start: true #启动时加载配置文件
+  #配合消息总线使用
+#  rabbitmq:
+#    host: localhost
+#    port: 7672
+#    username: guest
+#    password: guest
+eureka:
+  client:
+    enable: false
+    service-url:
+      defaultZone: http://localhost:9000/eureka
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+logging:
+  level:
+    org.springframework.cloud: INFO
+    org.springframework.boot: INFO
+#开启刷新配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include=bus-refresh:
