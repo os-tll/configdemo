@@ -2,12 +2,7 @@ server:
   port: 9003
 spring:
   application:
-    name: config-client
-  profiles:
-    active: dev
-  cloud:
-    config:
-      name: config-server
+    name: configclient
 eureka:
   client:
     register-with-eureka: true
@@ -15,7 +10,4 @@ eureka:
       defaultZone: http://localhost:9000/eureka
   instance:
     instance-id: ${spring.application.name}:${server.port}
-logging:
-  level:
-    org.springframework.cloud: info
-    org.springframework.boot: info
+    prefer-ip-address: true

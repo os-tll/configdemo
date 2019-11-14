@@ -14,11 +14,11 @@ spring:
           label: master #分支名称
           clone-on-start: true #启动时加载配置文件
   #配合消息总线使用
-#  rabbitmq:
-#    host: localhost
-#    port: 7672
-#    username: guest
-#    password: guest
+  rabbitmq:
+    host: localhost
+    port: 7672
+    username: guest
+    password: guest
 eureka:
   client:
     register-with-eureka: true
@@ -32,8 +32,10 @@ logging:
     org.springframework.cloud: info
     org.springframework.boot: info
 #开启刷新配置
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include=bus-refresh:
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include=bus-refresh:
