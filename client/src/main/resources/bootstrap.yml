@@ -2,12 +2,23 @@ server:
   port: 9003
 spring:
   application:
-    name: config-client
-  profiles:
-    active: dev
+    name: configclient
   cloud:
     config:
-      name: config-server
+      name: configclient #服务名称 ***-dev.yml 中的***
+      label: master #配置文件所在master分支
+      profile: dev #对应配置文件  ***-dev.yml 中的dev
+      discovery: #通过服务名访问服务器
+        enabled: true
+        service-id: config-server #配置中心服务名称
+  #方式二：配置中文件的地址  通过uri访问配置服务
+  #spring.cloud.config.uri=http://localhost:5555/
+  #配合消息总线使用
+  rabbitmq:
+    host: localhost
+    port: 7672
+    username: guest
+    password: guest
 eureka:
   client:
     register-with-eureka: true
@@ -15,7 +26,17 @@ eureka:
       defaultZone: http://localhost:9000/eureka
   instance:
     instance-id: ${spring.application.name}:${server.port}
-logging:
-  level:
-    org.springframework.cloud: info
-    org.springframework.boot: info
+    prefer-ip-address: true
+#开启刷新配置
+management:
+  security:
+    enabled: false
+#  endpoint:
+#    env:
+#      enabled: true
+#    web:
+#      exposure:
+#        include=*
+security:                                #
+  basic:
+    enabled: false

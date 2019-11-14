@@ -3,25 +3,25 @@ server:
 
 spring:
   application:
-    name: center # ·şÎñÃû³Æ
-# ·şÎñ×¢²áÖĞĞÄÅäÖÃ
+    name: center # æœåŠ¡åç§°
+# æœåŠ¡æ³¨å†Œä¸­å¿ƒé…ç½®
 eureka:
   server:
-    #×ÔÎÒ±£»¤»úÖÆ£¨°²È«Ä£Ê½£©
+    #è‡ªæˆ‘ä¿æŠ¤æœºåˆ¶ï¼ˆå®‰å…¨æ¨¡å¼ï¼‰
     enable-self-preservation: false
-    #ÆôÓÃÖ÷¶¯Ê§Ğ§£¬²¢ÇÒÃ¿´ÎÖ÷¶¯Ê§Ğ§¼ì²â¼ä¸ôÎª3s
+    #å¯ç”¨ä¸»åŠ¨å¤±æ•ˆï¼Œå¹¶ä¸”æ¯æ¬¡ä¸»åŠ¨å¤±æ•ˆæ£€æµ‹é—´éš”ä¸º3s
     eviction-interval-timer-in-ms: 4000
   instance:
     prefer-ip-address: true
-    #·şÎñË¢ĞÂÊ±¼äÅäÖÃ£¬Ã¿¸ôÕâ¸öÊ±¼ä»áÖ÷¶¯ĞÄÌøÒ»´Î£¬Ä¬ÈÏ30s
+    #æœåŠ¡åˆ·æ–°æ—¶é—´é…ç½®ï¼Œæ¯éš”è¿™ä¸ªæ—¶é—´ä¼šä¸»åŠ¨å¿ƒè·³ä¸€æ¬¡ï¼Œé»˜è®¤30s
     lease-renewal-interval-in-seconds: 50
-    # ·şÎñ¹ıÆÚÊ±¼äÅäÖÃ,³¬¹ıÕâ¸öÊ±¼äÃ»ÓĞ½ÓÊÕµ½ĞÄÌøEurekaServer¾Í»á½«Õâ¸öÊµÀıÌŞ³ı
-    # ×¢Òâ£¬EurekaServerÒ»¶¨ÒªÉèÖÃeureka.server.eviction-interval-timer-in-ms·ñÔòÕâ¸öÅäÖÃÎŞĞ§£¬Õâ¸öÅäÖÃÒ»°ãÎª·şÎñË¢ĞÂÊ±¼äÅäÖÃµÄÈı±¶
-    # Ä¬ÈÏ90s
+    # æœåŠ¡è¿‡æœŸæ—¶é—´é…ç½®,è¶…è¿‡è¿™ä¸ªæ—¶é—´æ²¡æœ‰æ¥æ”¶åˆ°å¿ƒè·³EurekaServerå°±ä¼šå°†è¿™ä¸ªå®ä¾‹å‰”é™¤
+    # æ³¨æ„ï¼ŒEurekaServerä¸€å®šè¦è®¾ç½®eureka.server.eviction-interval-timer-in-mså¦åˆ™è¿™ä¸ªé…ç½®æ— æ•ˆï¼Œè¿™ä¸ªé…ç½®ä¸€èˆ¬ä¸ºæœåŠ¡åˆ·æ–°æ—¶é—´é…ç½®çš„ä¸‰å€
+    # é»˜è®¤90s
     lease-expiration-duration-in-seconds: 90
   client:
     registerWithEureka: false
     fetchRegistry: false
-    #ÉèÖÃÄ¬ÈÏÇëÇóµØÖ·£¬Eureka¸ø¶¨Ä¬ÈÏÖµÎª8761
+    #è®¾ç½®é»˜è®¤è¯·æ±‚åœ°å€ï¼ŒEurekaç»™å®šé»˜è®¤å€¼ä¸º8761
     service-url:
-      defaultZone: http://localhost:9000/client/
+      defaultZone: http://localhost:9000/
