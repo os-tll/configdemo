@@ -1,12 +1,3 @@
-  application:
-    name: config-client
-eureka:
-  client:
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:9000/eureka
-  instance:
-    instance-id: ${spring.application.name}:${server.port}
 logging:
   level:
     org.springframework.cloud: info
@@ -17,3 +8,5 @@ logging:
 #    port: 7672
 #    username: guest
 #    password: guest
+version:
+  1234567890
