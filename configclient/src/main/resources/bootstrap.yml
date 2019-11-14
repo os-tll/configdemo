@@ -1,5 +1,5 @@
 server:
-  port: 9003
+  port: 9002
 spring:
   application:
     name: configclient
@@ -11,3 +11,7 @@ eureka:
   instance:
     instance-id: ${spring.application.name}:${server.port}
     prefer-ip-address: true
+logging:
+  level:
+    org.springframework.cloud: info
+    org.springframework.boot: info

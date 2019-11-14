@@ -41,10 +41,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-				<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-client</artifactId>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-config-client</artifactId>-->
+		<!--</dependency>-->
 		<!--&lt;!&ndash;自动刷新依赖&ndash;&gt;-->
 		<!--<dependency>-->
 			<!--<groupId>org.springframework.cloud</groupId>-->
