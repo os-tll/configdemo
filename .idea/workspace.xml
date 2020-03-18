@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8260233-8af9-4533-84e2-efe7051b33ef" name="Default Changelist" comment="" />
+    <list default="true" id="e8260233-8af9-4533-84e2-efe7051b33ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lamdbas/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/DealList1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/DealList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/FilterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/FilterPrint1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/FilterPrint2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P26_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P26_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P29_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P29_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P30_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/P30_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamdbas/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lamdbas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lamdbas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lamdbas/out/production/lamdbas/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lamdbas/src/Example1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lamdbas/src/Main.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +56,7 @@
     <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -37,6 +66,11 @@
             <path>
               <item name="configdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="configdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="lamdbas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -50,7 +84,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583733037694" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lamdbas" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -80,27 +114,23 @@
       <option name="presentableId" value="Default" />
       <updated>1583732614852</updated>
       <workItem from="1583732619474" duration="546000" />
+      <workItem from="1584498118523" duration="224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="546000" />
+    <option name="totallyTimeSpent" value="770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1139" height="735" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24976873" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25439408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -108,29 +138,28 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="JOL" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="JOL" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lamdbas/Enter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lamdbas/Enter.java" />
   </component>
   <component name="masterDetails">
     <states>
